@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Aula06_Funcao" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Aula06_Funcao" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Aula06_Funcao" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="aula06_desafio01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo07.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo08.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo09.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula06_exemplo10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista04_exercicio1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista04_exercicio2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista04_exercicio7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

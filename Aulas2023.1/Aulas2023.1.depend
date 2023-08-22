@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1690846004 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1690845868 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01.c
+	<stdio.h>
+	<stdlib.h>
+
+1690848680 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exemplo2.c
+	<stdlib.h>
+
+1690852040 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exemplo3.c
+	<stdlib.h>
+
+1690889139 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exemplo1.c
+	<stdio.h>
+	<stdlib.h>
+
+1690848246 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exemplo5.c
+	<stdlib.h>
+
+1690848267 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exemplo4.c
+	<stdlib.h>
+
+1690851689 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exemplo6.c
+	<stdlib.h>
+
+1690850197 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exemplo7.c
+	<stdlib.h>
+
+1690852322 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula01_exercicio01.c
+	<stdio.h>
+
+1690853364 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula02_exemplo1.c
+	<stdio.h>
+	<stdlib.h>
+
+1690852826 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula02_exemplo2.c
+	<stdio.h>
+	<stdlib.h>
+
+1690853018 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula02_exemplo3.c
+	<stdio.h>
+	<stdlib.h>
+
+1690853168 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula02_exemplo4.c
+	<stdio.h>
+	<stdlib.h>
+
+1690853911 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula02_exemplo5.c
+	<stdio.h>
+	<stdlib.h>
+
+1690854422 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula03_exemplo1.c
+	<stdio.h>
+	<stdlib.h>
+
+1690855496 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula03_exercicio1.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+
+1690854928 source:d:\documentos\ufca\2023.1\laboratório de programação\aulas2023.1\aula03_exemplo2.c
+	<stdio.h>
+	<stdlib.h>
+

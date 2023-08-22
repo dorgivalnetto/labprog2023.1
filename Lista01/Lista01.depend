@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1691671318 source:d:\documentos\ufca\2023.1\laboratório de programação\lista01\lista01_exercicio01.c
+	<stdio.h>
+	<time.h>
+
+1691638040 source:d:\documentos\ufca\2023.1\laboratório de programação\lista01\lista01_exercicio00.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1691667067 source:d:\documentos\ufca\2023.1\laboratório de programação\lista01\lista01_desafio01.c
+	<stdio.h>
+
