@@ -35,6 +35,18 @@
 		<Unit filename="aula07_exemplo01.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="aula07_exemplo02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula07_exemplo03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula07_exemplo04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aula07_exemplo05.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

@@ -12,15 +12,12 @@ int main(){
     int *x;
 
 
-    /*Um ponteiro pode ter um valor especial NULL,
-    que é o endereço de nenhum lugar
-    */
+    /*Um ponteiro pode ter um valor especial NULL*/
     int *p = NULL;
 
 
     /*Podemos apontar o ponteiro para uma variável
-    que já exista no programa
-    */
+    que já exista no programa */
     int x = 10;
     int *p;
 
@@ -35,6 +32,13 @@ int main(){
     um ponteiro, basta usar o operador asterisco *
     */
     printf("Valor da variável apontada p = %d\n", *p);
+
+
+    /*O operador * permite modificar o conteúdo da posição
+    de memória apontada
+    */
+    *p = 12;
+    printf("*p = %d\n", *p)
 
     system("pause");
     return 0;
