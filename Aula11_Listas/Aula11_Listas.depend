@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1693272980 source:d:\documentos\ufca\2023.1\laboratório de programação\aula11_listas\aula11_exemplo01.c
+	<stdio.h>
+	<stdlib.h>
+
+1693277027 source:d:\documentos\ufca\2023.1\laboratório de programação\aula11_listas\aula11_exemplo02.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+
+1584205420 source:d:\documentos\ufca\2023.1\laboratório de programação\aula11_listas\main.c
+	<stdio.h>
+	<stdlib.h>
+
