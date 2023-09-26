@@ -2,34 +2,14 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="aula11_exemplo03_main.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="14" zoom_2="0">
+	<File name="aula11_exemplo03_lista_sequencial.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="14" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="702" topLine="0" />
+			<Cursor1 position="3204" topLine="165" />
 		</Cursor>
 	</File>
-	<File name="aula11_exemplo02.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="10" zoom_2="0">
+	<File name="aula11_exemplo00(4).c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="11" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1757" topLine="48" />
-		</Cursor>
-	</File>
-	<File name="aula11_exemplo03_lista_sequencial.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="13" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="370" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="aula11_exemplo00(3).c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1941" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="aula11_exemplo00.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="10" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="176" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="aula11_exemplo03_lista_sequencial.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="14" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1694" topLine="69" />
+			<Cursor1 position="2509" topLine="110" />
 		</Cursor>
 	</File>
 	<File name="aula11_exemplo01.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="13" zoom_2="0">
@@ -37,14 +17,34 @@
 			<Cursor1 position="238" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="aula11_exemplo00(3).c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1941" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="aula11_exemplo03_main.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="14" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="650" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="aula11_exemplo00(2).c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="14" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="5032" topLine="127" />
 		</Cursor>
 	</File>
-	<File name="aula11_exemplo00(4).c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="11" zoom_2="0">
+	<File name="aula11_exemplo03_lista_sequencial.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="13" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2509" topLine="110" />
+			<Cursor1 position="745" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="aula11_exemplo00.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="10" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="176" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="aula11_exemplo02.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="10" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1757" topLine="48" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

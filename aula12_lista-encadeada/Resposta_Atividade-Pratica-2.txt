@@ -1,0 +1,145 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Definição da estrutura para descrever um restaurante
+struct Restaurante {
+    char nome[100];
+    char endereco[100];
+    char tipoComida[50];
+    float notaCozinha;
+    struct Restaurante* proximo;
+};
+
+typedef struct Restaurante Restaurante;
+
+// Função para inserir um novo restaurante na lista
+void inserirRestaurante(Restaurante** lista, char nome[], char endereco[], char tipoComida[], float notaCozinha) {
+    Restaurante* novoRestaurante = (Restaurante*)malloc(sizeof(Restaurante));
+    if (novoRestaurante == NULL) {
+        printf("Erro: Falha na alocação de memória.\n");
+        exit(1);
+    }
+    
+    strcpy(novoRestaurante->nome, nome);
+    strcpy(novoRestaurante->endereco, endereco);
+    strcpy(novoRestaurante->tipoComida, tipoComida);
+    novoRestaurante->notaCozinha = notaCozinha;
+    
+    novoRestaurante->proximo = *lista;
+    *lista = novoRestaurante;
+}
+
+// Função para listar todos os restaurantes
+void listarRestaurantes(Restaurante* lista) {
+    printf("Lista de Restaurantes:\n");
+    while (lista != NULL) {
+        printf("Nome: %s\n", lista->nome);
+        printf("Endereço: %s\n", lista->endereco);
+        printf("Tipo de Comida: %s\n", lista->tipoComida);
+        printf("Nota da Cozinha: %.1f\n", lista->notaCozinha);
+        printf("------------------------\n");
+        lista = lista->proximo;
+    }
+}
+
+// Função para listar restaurantes com nota superior a um valor
+void listarRestaurantesComNotaSuperior(Restaurante* lista, float valor) {
+    printf("Restaurantes com nota superior a %.1f:\n", valor);
+    while (lista != NULL) {
+        if (lista->notaCozinha > valor) {
+            printf("Nome: %s\n", lista->nome);
+            printf("Endereço: %s\n", lista->endereco);
+            printf("Tipo de Comida: %s\n", lista->tipoComida);
+            printf("Nota da Cozinha: %.1f\n", lista->notaCozinha);
+            printf("------------------------\n");
+        }
+        lista = lista->proximo;
+    }
+}
+
+// Função para listar restaurantes com determinado tipo de comida
+void listarRestaurantesComTipoComida(Restaurante* lista, char tipoComida[]) {
+    printf("Restaurantes com tipo de comida '%s':\n", tipoComida);
+    while (lista != NULL) {
+        if (strcmp(lista->tipoComida, tipoComida) == 0) {
+            printf("Nome: %s\n", lista->nome);
+            printf("Endereço: %s\n", lista->endereco);
+            printf("Tipo de Comida: %s\n", lista->tipoComida);
+            printf("Nota da Cozinha: %.1f\n", lista->notaCozinha);
+            printf("------------------------\n");
+        }
+        lista = lista->proximo;
+    }
+}
+
+// Função para liberar a memória alocada para a lista
+void liberarLista(Restaurante* lista) {
+    while (lista != NULL) {
+        Restaurante* temp = lista;
+        lista = lista->proximo;
+        free(temp);
+    }
+}
+
+int main() {
+    Restaurante* lista = NULL;
+    int opcao;
+    
+    do {
+        printf("\nMenu:\n");
+        printf("1. Inserir Restaurante\n");
+        printf("2. Listar todos os Restaurantes\n");
+        printf("3. Listar Restaurantes com nota superior a um valor\n");
+        printf("4. Listar Restaurantes com determinado tipo de comida\n");
+        printf("5. Sair\n");
+        printf("Escolha uma opção: ");
+        scanf("%d", &opcao);
+        
+        switch (opcao) {
+            case 1: {
+                char nome[100];
+                char endereco[100];
+                char tipoComida[50];
+                float notaCozinha;
+                
+                printf("Nome do Restaurante: ");
+                scanf(" %[^\n]s", nome);
+                printf("Endereço do Restaurante: ");
+                scanf(" %[^\n]s", endereco);
+                printf("Tipo de Comida: ");
+                scanf(" %[^\n]s", tipoComida);
+                printf("Nota da Cozinha (entre 0 e 5): ");
+                scanf("%f", &notaCozinha);
+                
+                inserirRestaurante(&lista, nome, endereco, tipoComida, notaCozinha);
+                break;
+            }
+            case 2:
+                listarRestaurantes(lista);
+                break;
+            case 3: {
+                float valor;
+                printf("Digite o valor da nota para filtrar os restaurantes: ");
+                scanf("%f", &valor);
+                listarRestaurantesComNotaSuperior(lista, valor);
+                break;
+            }
+            case 4: {
+                char tipoComida[50];
+                printf("Digite o tipo de comida para filtrar os restaurantes: ");
+                scanf(" %[^\n]s", tipoComida);
+                listarRestaurantesComTipoComida(lista, tipoComida);
+                break;
+            }
+            case 5:
+                liberarLista(lista);
+                printf("Programa encerrado.\n");
+                break;
+            default:
+                printf("Opção inválida. Tente novamente.\n");
+        }
+    } while (opcao != 5);
+    
+    return 0;
+}

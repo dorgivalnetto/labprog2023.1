@@ -8,6 +8,8 @@ struct lista{
     struct aluno dados[MAX];
 };
 
+
+
 Lista* cria_lista(){
     Lista *li;
     li = (Lista*) malloc(sizeof(struct lista));
@@ -16,9 +18,14 @@ Lista* cria_lista(){
     return li;
 }
 
+
+
+
 void libera_lista(Lista* li){
     free(li);
 }
+
+
 
 int consulta_lista_pos(Lista* li, int pos, struct aluno *al){
     if(li == NULL || pos <= 0 ||  pos > li->qtd)
@@ -26,6 +33,7 @@ int consulta_lista_pos(Lista* li, int pos, struct aluno *al){
     *al = li->dados[pos-1];
     return 1;
 }
+
 
 int consulta_lista_mat(Lista* li, int mat, struct aluno *al){
     if(li == NULL)
@@ -40,6 +48,7 @@ int consulta_lista_mat(Lista* li, int mat, struct aluno *al){
     return 1;
 }
 
+
 int insere_lista_final(Lista* li, struct aluno al){
     if(li == NULL)
         return 0;
@@ -49,6 +58,8 @@ int insere_lista_final(Lista* li, struct aluno al){
     li->qtd++;
     return 1;
 }
+
+
 
 int insere_lista_inicio(Lista* li, struct aluno al){
     if(li == NULL)
@@ -62,6 +73,7 @@ int insere_lista_inicio(Lista* li, struct aluno al){
     li->qtd++;
     return 1;
 }
+
 
 int insere_lista_ordenada(Lista* li, struct aluno al){
     if(li == NULL)
@@ -79,6 +91,7 @@ int insere_lista_ordenada(Lista* li, struct aluno al){
     li->qtd++;
     return 1;
 }
+
 
 int remove_lista(Lista* li, int mat){
     if(li == NULL)
